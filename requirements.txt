@@ -1,0 +1,35 @@
+# requirements.txt - all the packages the project needs
+# Up-to-date package management tools
+pip==25.0.1
+setuptools==75.8.0
+wheel==0.45.1
+
+# Easy logging for monitoring code execution
+loguru==0.7.3
+
+# Environment variables management
+python-dotenv==1.0.1
+
+# Offline text-to-speech library for Python (1-15 MB)
+pyttsx3==2.98
+
+# Core IPython package that provides an enhanced interactive Python shell (10-15 MB).
+ipython==8.32.0
+
+# Core Jupyter functionality required for running notebooks in VS Code (50-60 MB).
+jupyter==1.1.1
+
+# Kernel interface for Jupyter notebooks (required for proper kernel registration)
+ipykernel==6.29.5
+
+# Interactive widgets (often used in notebooks).
+ipywidgets==8.1.5
+
+# Core library for creating visualizations (~30 MB)
+matplotlib==3.10.0
+
+# Statistical data visualization library built on matplotlib (~2-5 MB)
+seaborn==0.13.2
+
+# Runtime dependencies
+pandas==2.2.3
