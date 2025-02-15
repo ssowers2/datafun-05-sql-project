@@ -94,6 +94,31 @@ py db01_setup.py
 6. Open db is VS Code, if data isn't showing click refresh button, data should appear
 7. To leave SQLite command: .exit
 
+# Project Structure
+datafun-05-sql-project/
+│── sql_statements/        # SQL scripts for setting up the database
+│   ├── 01_drop_tables.sql
+│   ├── 02_create_tables.sql
+│   ├── 03_insert_records.sql
+│
+│── sql_features/          # SQL scripts for modifying records
+│   ├── update_records.sql
+│   ├── delete_records.sql
+│
+│── sql_queries/           # SQL scripts for data analysis
+│   ├── query_aggregation.sql
+│   ├── query_filter.sql
+│   ├── query_group_by.sql
+│   ├── query_join.sql
+│   ├── query_sorting.sql
+│
+│── db01_setup.py          # Python script to create database & insert data
+│── db02_modify.py         # Python script to update & delete records
+│── db03_queries.py        # Python script to run SQL queries
+│── requirements.txt       # Required Python libraries
+│── .gitignore             # Files to exclude from version control
+│── README.md              # Project instructions
+
 # Git Commands (FYI)
 ## Add Changes:
 git add .
