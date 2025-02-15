@@ -47,8 +47,8 @@ pip install -r requirements.txt
 2. create_tables.sql: Contains SQL statements to create new tables.
 3. insert_data.sql: Contains SQL statements to insert data into the tables.
 
-## Step 3: Create Python Script
-1. Write a Python script to execute the SQL statements from the files above. Example script name: db01_setup.py.
+## Step 3: Create Python Scripts
+1. Write a Python script for dropping, creating, and inserting tables and wrie a python script for deleting and updating records. Example script name: db01_setup.py or db02_features.py.
 2. import sqlite3
 
 ## Connect to SQLite database (it will be created if it doesn't exist)
